@@ -71,3 +71,350 @@
     margin-left: 1248px;
     margin-top: -30px;
 }
+
+.outdoor-living-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Info Section */
+.info-section {
+    margin-bottom: 80px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+
+.learn-more {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.learn-more:hover {
+    color: #004499;
+}
+
+.collection-section {
+    margin-top: 60px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
+
+.navigation-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-btn {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ddd;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
+
+.nav-btn:hover {
+    border-color: #0066cc;
+    color: #0066cc;
+}
+
+.nav-btn.active {
+    background: #333;
+    border-color: #333;
+    color: white;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+
+
+.why-outdorra-section {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 30vw 1fr;
+    gap: 2vw;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.image-container {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.large-image {
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.content-area {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-header {
+    margin-bottom: 3vh;
+}
+
+.section-title {
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1vh;
+}
+
+.section-subtitle p {
+    font-size: 1vw;
+    color: #666;
+    margin: 0.3vh 0;
+    line-height: 1.5;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vh 2vw;
+}
+
+.feature-item {
+    margin-bottom: 1vh;
+}
+
+.feature-title {
+    font-size: 0.9vw;
+    font-weight: 700;
+    color: #00a0e6;
+    text-transform: uppercase;
+    margin-bottom: 0.5vh;
+    line-height: 1.3;
+}
+
+.feature-description {
+    font-size: 0.8vw;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
+.inspire-section {
+    background-color: #fff;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.section-title {
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: #333;
+    text-align: left;
+}
+
+.inspire-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 0.8fr;
+    gap: 2vw;
+    height: 85vh;
+    width: 100%;
+}
+
+.large-card {
+    grid-row: span 2;
+    position: relative;
+}
+
+.image-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.bedroom-image {
+    height: 45%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.project-info {
+    background-color: #f8f9fa;
+    height: 55%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.project-title {
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: #333;
+}
+
+.project-subtitle {
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #333;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+
+.contact-text {
+    font-size: 0.9vw;
+    color: #666;
+}
+
+.phone-number {
+    font-size: 0.9vw;
+    color: #666;
+}
+
+.play-button {
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.play-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.play-circle:hover {
+    transform: scale(1.1);
+}
+
+.play-icon {
+    color: #00a0e6;
+    font-size: 24px;
+    margin-left: 3px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.right-content .image-card {
+    height: 70%;
+}
+
+.projects-link {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.see-projects-btn {
+    color: #00a0e6;
+    text-decoration: none;
+    font-size: 1.1vw;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.see-projects-btn:hover {
+    color: #0080cc;
+}
