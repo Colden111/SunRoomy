@@ -225,7 +225,7 @@ body {
 }
 
 .gallery-item:hover .gallery-image img {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .gallery-content {
@@ -371,7 +371,7 @@ body {
     transform: translateX(5px);
 }
 
-/* Help Section */
+
 .help-section {
     background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
     padding: 4rem 0;

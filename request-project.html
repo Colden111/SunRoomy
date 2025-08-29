@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request A Project - OUTDORR</title>
+    <link rel="stylesheet" href="css/request-project.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <img src="images/Group 934 (1).png" alt="OUTDORR" />
+        </a>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="sunroom.html">Sunroom</a></li>
+            <li><a href="Louver.html">Louver</a></li>
+            <li><a href="pergola.html">Pergola</a></li>
+            <li><a href="blinds.html">Blinds</a></li>
+            <li><a href="#">Windows & Doors</a></li>
+          </ul>
+        </nav>
+        <div class="nav-icons">
+          <span class="search-icon">🔍</span>
+          <span class="menu-icon">☰</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <div class="request-layout">
+          <div class="request-image">
+            <img src="images/modern-house-1.png" alt="Modern House" />
+          </div>
+
+          <div class="request-form-section">
+            <div class="form-header">
+              <h1 class="form-title">Request A Project</h1>
+              <p class="form-description">
+                Ante quis sed nibh cras. Ornare ullamcorper libero at elementum
+                enim morbi pulvinar. Ac hendrerit nisl rhoncus nisl tempus. Ante
+                quis sed nibh cras. Ornare ullamcorper libero at elementum enim
+                morbi pulvinar. Ac hendrerit nisl.
+              </p>
+            </div>
+
+            <form class="request-form">
+              <div class="form-section">
+                <h3 class="section-title">Personal Info</h3>
+
+                <div class="form-group">
+                  <label for="fullName">Full Name</label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Your Full Name"
+                    required
+                  />
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <div class="phone-input">
+                      <select class="country-code">
+                        <option value="+1">CN +1</option>
+                        <option value="+44">GB +44</option>
+                        <option value="+49">DC +49</option>
+                        <option value="+33">FR +33</option>
+                      </select>
+                      <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="9023456789"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email Address"
+                    required
+                  />
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                      <option value="">Select</option>
+                      <option value="us">United States</option>
+                      <option value="ca">Canada</option>
+                      <option value="uk">United Kingdom</option>
+                      <option value="de">Germany</option>
+                      <option value="fr">France</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="state">State</label>
+                    <select id="state" name="state" required>
+                      <option value="">Select</option>
+                      <option value="ca">California</option>
+                      <option value="ny">New York</option>
+                      <option value="tx">Texas</option>
+                      <option value="fl">Florida</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="city">City</label>
+                    <input
+                      type="text"
+                      id="city"
+                      name="city"
+                      placeholder="Enter City"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="zipCode">Zip Code</label>
+                    <input
+                      type="text"
+                      id="zipCode"
+                      name="zipCode"
+                      placeholder="Enter Postal Code"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-section">
+                <h3 class="section-title">Project Info</h3>
+
+                <div class="form-group">
+                  <label for="mainSystems">Main Systems</label>
+                  <select id="mainSystems" name="mainSystems" required>
+                    <option value="">Select</option>
+                    <option value="pergola">Pergola</option>
+                    <option value="sunroom">Sunroom</option>
+                    <option value="louver">Louver</option>
+                    <option value="blinds">Blinds</option>
+                    <option value="windows-doors">Windows & Doors</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="enclosingSystems">Enclosing Systems</label>
+                  <select id="enclosingSystems" name="enclosingSystems">
+                    <option value="">Select</option>
+                    <option value="glass">Glass Enclosure</option>
+                    <option value="screen">Screen Enclosure</option>
+                    <option value="partial">Partial Enclosure</option>
+                    <option value="none">No Enclosure</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="shadingSystems">Shading Systems</label>
+                  <select id="shadingSystems" name="shadingSystems">
+                    <option value="">Select</option>
+                    <option value="retractable">Retractable Awning</option>
+                    <option value="fixed">Fixed Shade</option>
+                    <option value="motorized">Motorized Blinds</option>
+                    <option value="manual">Manual Blinds</option>
+                  </select>
+                </div>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                <span>Request Project</span>
+                <span class="btn-arrow">&rightarrow;</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <h2 class="logo-text">
+                <img src="images/Group 934 (1).png" alt="OUTDORR" />
+              </h2>
+            </div>
+            <p class="footer-tagline">
+              Sustainable Outdoor Living Structures | Custom Pergolas, Sunrooms,
+              Louvers & ADU Modules
+            </p>
+          </div>
+
+          <div class="footer-nav">
+            <div class="footer-nav-item">
+              <a href="pergola.html">Pergolas</a>
+            </div>
+            <div class="footer-nav-item">
+              <a href="sunroom.html">Sunrooms</a>
+            </div>
+            <div class="footer-nav-item">
+              <a href="Louver.html">Louvers</a>
+            </div>
+            <div class="footer-nav-item">
+              <a href="blinds.html">Blinds</a>
+            </div>
+            <div class="footer-nav-item">
+              <a href="#">Window & Doors</a>
+            </div>
+            <div class="footer-nav-item">
+              <a href="#">ADU Modules</a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <a href="#" class="footer-link">About Us</a>
+            <a href="#" class="footer-link">Our Projects</a>
+            <a href="#" class="footer-link">Request Now</a>
+            <a href="#" class="footer-link">Tailored Design</a>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="footer-contact">
+              <h4 class="contact-title">Contact</h4>
+              <p class="contact-address">
+                900 Folsom St, Suite 500<br />
+                Santa Clara, CA 95051
+              </p>
+              <p class="contact-info">
+                info@outdorr.com<br />
+                +1 (650) 301 0915
+              </p>
+            </div>
+
+            <div class="footer-social">
+              <h4 class="social-title">Follow us</h4>
+              <div class="social-icons">
+                <a href="#" class="social-icon">
+                  <img src="images/instagram.png" alt="Instagram" />
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="images/facebook.png" alt="Facebook" />
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="images/linkedin.png" alt="LinkedIn" />
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="images/pinterest.png" alt="Pinterest" />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-subscribe">
+              <h4 class="subscribe-title">Subscribe</h4>
+              <div class="subscribe-form">
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  class="subscribe-input"
+                />
+                <button class="subscribe-btn">→</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-copyright">
+            <p>
+              All Rights Reserved By The Outdorr Inc. | US California / 2023
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
